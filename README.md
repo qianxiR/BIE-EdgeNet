@@ -29,6 +29,8 @@ Organize the dataset into the following structure:
 ```
 Where folder `A` contains pre-event images, folder `B` contains post-event images, folder `label` contains the binary change masks (0/255), and folder `label_edge` contains the edge masks generated from `label`.
 
+Note: The `cdcd_demo` dataset sample is available in the [Release](../../releases) page.
+
 The edge labels can be generated from the binary change masks via:
 ```
 python edge_making.py
