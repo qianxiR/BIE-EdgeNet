@@ -119,8 +119,9 @@ data/
 !samples_LEVIR/B/*.png
 
 # -------------------- CDCD Demo --------------------
-# cdcd_demo/ 已瘦身(3 对样本)入库;仅忽略打包的 7z
+# CDCD/ 已瘦身(3 对样本)入库;仅忽略打包的 7z
 cdcd_demo.7z
+CDCD.7z
 !samples_LEVIR/label/*.png
 
 # -------------------- GDAL / GeoTIFF 临时 --------------------
