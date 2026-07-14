@@ -44,14 +44,14 @@ Then register your dataset path in `data_config.py`, e.g. `root_dir = r'E:\Data_
 # Working Example
 
 0. Environment
-cd BIE-EdgeNET
-conda create -n BIE python=3.10
+```bash
+cd BIE-EdgeNet
+conda create -n BIE python=3.8
 conda activate BIE
-# recommendation (torch >= 2.4.0 and cuda >= 12.1 for mmcv installation)
-pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu118
-# mmcv need to fit torch and cuda version
-pip install mmcv==2.2.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.4/index.html
-pip install -r requirements.txt
+# PyTorch 1.10.1 + CUDA 10.2
+conda install pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=10.2 -c pytorch
+pip install timm==0.4.12 einops opencv-python tqdm
+```
 
 1. Training the Model.
 
