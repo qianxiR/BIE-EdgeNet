@@ -14,7 +14,7 @@ The dataset should consist of bi-temporal image pairs with pixel-level change la
 
 For building change detection (BCD), download the [LEVIR-CD](https://justchenhao.github.io/LEVIR/), [WHU-CD](http://gpcv.whu.edu.cn/data/building_dataset.html). Crop each image into 256x256 patches and prepare the dataset into the following structure.
 
-An example sample of the CDCD dataset, "cdcd_demo.7z", can be downloaded from the [Release](https://github.com/qianxiR/BIE-EdgeNet/releases) page and unzipped for format reference.
+An example sample of the CDCD dataset (3 image pairs with labels and edge labels) is provided in the `cdcd_demo/` folder of this repository for format reference.
 
 Organize the dataset into the following structure:
 
