@@ -9,7 +9,7 @@ BIE-EdgeNet: Difference-Prior Cross-Attention and Edge Fusion for Building Chang
 - tqdm
 # Dataset
 The dataset should consist of bi-temporal image pairs with pixel-level change labels and edge labels. Each sample provides the pre-event image, the post-event image, the binary change mask, and the corresponding edge mask.
-
+The CDCD data is included in this release. Please note that this is a demo.
 Organize the dataset into the following structure:
 ```
 /E:/Data_AI
