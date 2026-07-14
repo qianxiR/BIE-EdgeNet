@@ -117,6 +117,10 @@ data/
 # 例外:仓库自带的小尺寸样例图可显式 add -f
 !samples_LEVIR/A/*.png
 !samples_LEVIR/B/*.png
+
+# -------------------- CDCD Demo(体积过大,仅放 Release,不入仓库) --------------------
+cdcd_demo/
+cdcd_demo.7z
 !samples_LEVIR/label/*.png
 
 # -------------------- GDAL / GeoTIFF 临时 --------------------
